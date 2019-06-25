@@ -10,7 +10,9 @@ Prerequisites
 you should install Java >=8 and Docker
 
 Installing
-git clone https://gitlab.com/luchocloud/springbootdocker.git
+git clone https://github.com/julianmarcelolopez/springbootdocker
+
 ./mvnw clean package
-docker build -t spring_boot_docker .
+docker build -t spring_boot_docker
+
 docker run -d -p 8080:8080 spring_boot_docker
