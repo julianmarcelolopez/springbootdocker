@@ -1,4 +1,4 @@
-package com.luchocloud.microservice.models;
+package com.microservice.model;
 
 public class Greeting {
 
