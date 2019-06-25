@@ -13,6 +13,7 @@ Installing
 git clone https://github.com/julianmarcelolopez/springbootdocker
 
 ./mvnw clean package
+
 docker build -t spring_boot_docker
 
 docker run -d -p 8080:8080 spring_boot_docker
